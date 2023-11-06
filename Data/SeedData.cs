@@ -26,7 +26,8 @@ public class SeedData
                     CourseDescription = "Covering C# topics",
                     Id = 1000,
                     StartTime = new TimeOnly(02,00),
-                    RoomNumber = 200
+                    RoomNumber = 200,
+                    EndTime = new TimeOnly(2,30)
                 },
                 new Course()
                 {
@@ -34,6 +35,7 @@ public class SeedData
                     CourseDescription = "Covering Java topics",
                     Id = 2000,
                     StartTime = new TimeOnly(12,00),
+                    EndTime = new TimeOnly(12,30),
                     RoomNumber = 200
                 },
                 new Course()
@@ -42,6 +44,7 @@ public class SeedData
                     CourseDescription = "Covering Cobol topics",
                     Id = 3000,
                     StartTime = new TimeOnly(04,00),
+                    EndTime = new TimeOnly(04,30),
                     RoomNumber = 200
                 },
                 new Course()
@@ -50,6 +53,7 @@ public class SeedData
                     CourseDescription = "Covering JavaScript topics",
                     Id = 4000,
                     StartTime = new TimeOnly(03,00),
+                    EndTime = new TimeOnly(03,30),
                     RoomNumber = 200
                 },
                 new Course()
@@ -58,6 +62,7 @@ public class SeedData
                     CourseDescription = "Covering Python topics",
                     Id = 5000,
                     StartTime = new TimeOnly(01,00),
+                    EndTime = new TimeOnly(01,30),
                     RoomNumber = 200
                 }
                 );

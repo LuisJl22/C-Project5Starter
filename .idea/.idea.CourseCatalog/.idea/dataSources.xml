@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="CourseCatalogContext-8d188ae7-3d04-4eb2-9a5d-4dbeb4e4f5dc" uuid="ca548f1e-b824-4722-ad23-8d54da93133f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\C#\ASPNET\C-Project5Starter\CourseCatalogContext-8d188ae7-3d04-4eb2-9a5d-4dbeb4e4f5dc.db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

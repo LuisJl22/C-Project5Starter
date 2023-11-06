@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using CourseCatalog.Models;
 
+
 namespace CourseCatalog.Data
 {
     public class CourseCatalogContext : DbContext

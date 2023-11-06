@@ -25,6 +25,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Course[0].StartTime)
             </th>
+             <th>
+              @Html.DisplayNameFor(model => model.Course[0].EndTime)
+              </th>
             <th></th>
         </tr>
     </thead>
@@ -43,6 +46,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.StartTime)
             </td>
+            <td>
+             @Html.DisplayFor(modelItem => item.EndTime)
+             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
                 <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
