@@ -10670,24 +10670,34 @@
     ]
   },
   "packageFolders": {
-    "/home/sorrymint/.nuget/packages/": {}
+    "C:\\Users\\Lsjl2\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/sorrymint/Documents/IHCC/2023FALL/C#/Project 5/Project 5/Project 5 Solution/CourseCatalog/CourseCatalog.csproj",
+      "projectUniqueName": "C:\\C#\\ASPNET\\C-Project5Starter\\CourseCatalog.csproj",
       "projectName": "CourseCatalog",
-      "projectPath": "/home/sorrymint/Documents/IHCC/2023FALL/C#/Project 5/Project 5/Project 5 Solution/CourseCatalog/CourseCatalog.csproj",
-      "packagesPath": "/home/sorrymint/.nuget/packages/",
-      "outputPath": "/home/sorrymint/Documents/IHCC/2023FALL/C#/Project 5/Project 5/Project 5 Solution/CourseCatalog/obj/",
+      "projectPath": "C:\\C#\\ASPNET\\C-Project5Starter\\CourseCatalog.csproj",
+      "packagesPath": "C:\\Users\\Lsjl2\\.nuget\\packages\\",
+      "outputPath": "C:\\C#\\ASPNET\\C-Project5Starter\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/sorrymint/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Lsjl2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\MicroFocus.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Micro Focus\\Visual COBOL\\NuGetPackages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -10740,7 +10750,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
